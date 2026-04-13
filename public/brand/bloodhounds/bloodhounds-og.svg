@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08090d" />
+      <stop offset="100%" stop-color="#10141c" />
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9fe870" />
+      <stop offset="100%" stop-color="#8a2435" />
+    </linearGradient>
+  </defs>
+  
+    <rect width="1200" height="630" fill="#08090d" />
+    <rect x="0" y="0" width="180" height="630" fill="rgba(159,232,112,0.09)" />
+    <rect x="148" y="0" width="8" height="630" fill="#9fe870" />
+    <path d="M748 598 C788 426 858 298 950 212 C994 170 1040 148 1084 148 C1110 148 1144 160 1172 188 L1172 598 Z" fill="#141b27" />
+    <path d="M430 598 C476 394 552 248 646 172 C692 134 736 118 774 118 C840 118 896 176 918 270 C946 390 924 494 886 598 Z" fill="#1b2431" />
+    <text x="226" y="286" fill="#f3f4ee" font-size="120" font-family="Arial Black, Arial, Helvetica, sans-serif" letter-spacing="6">BLOODHOUNDS</text>
+    <text x="228" y="350" fill="#dbe0d7" font-size="26" font-family="Arial, Helvetica, sans-serif" letter-spacing="8">CAST / EPISODES / SEASON 2 / WHERE TO WATCH</text>
+    <rect x="226" y="390" width="430" height="8" fill="#8a2435" />
+    <rect x="676" y="390" width="170" height="8" fill="#9fe870" />
+    <text x="228" y="462" fill="#f3f4ee" font-size="34" font-family="Arial, Helvetica, sans-serif">An unofficial Netflix guide built for search, speed, and clean context.</text>
+  
+</svg>

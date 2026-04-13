@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08090d" />
+      <stop offset="100%" stop-color="#10141c" />
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9fe870" />
+      <stop offset="100%" stop-color="#8a2435" />
+    </linearGradient>
+  </defs>
+  
+    <rect width="1200" height="1500" fill="#10141c" />
+    <rect x="72" y="72" width="1056" height="1356" fill="#08090d" stroke="rgba(255,255,255,0.08)" />
+    <rect x="92" y="92" width="18" height="1316" fill="#9fe870" opacity="0.75" />
+    <rect x="1078" y="92" width="18" height="1316" fill="#8a2435" opacity="0.75" />
+    <path d="M254 1180 C320 860 402 650 516 504 C570 438 620 408 668 408 C728 408 780 458 804 538 C838 650 836 846 776 1180 Z" fill="#141b27" />
+    <path d="M812 1200 C872 930 958 736 1040 640 C1078 594 1114 572 1142 570 L1142 1200 Z" fill="#10161f" />
+    <path d="M540 402 C620 402 684 338 684 260 C684 180 620 116 540 116 C462 116 396 180 396 260 C396 338 462 402 540 402 Z" fill="#1d2632" />
+    <path d="M934 574 C1000 574 1054 520 1054 454 C1054 388 1000 334 934 334 C866 334 814 388 814 454 C814 520 866 574 934 574 Z" fill="#1d2632" />
+    <text x="154" y="1122" fill="#f3f4ee" font-size="146" font-family="Arial Black, Arial, Helvetica, sans-serif" letter-spacing="6">TWO</text>
+    <text x="154" y="1256" fill="#f3f4ee" font-size="146" font-family="Arial Black, Arial, Helvetica, sans-serif" letter-spacing="6">STAND</text>
+    <rect x="154" y="1290" width="370" height="8" fill="#9fe870" />
+    <text x="154" y="1362" fill="#dbe0d7" font-size="34" font-family="Arial, Helvetica, sans-serif" letter-spacing="10">LOYALTY BUILT UNDER PRESSURE</text>
+  
+</svg>

@@ -1,0 +1,35 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: bloodhounds-live
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/from-to-www-redirect: "true"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - bloodhounds.homes
+        - www.bloodhounds.homes
+      secretName: bloodhounds-homes-tls
+  rules:
+    - host: bloodhounds.homes
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: bloodhounds-web
+                port:
+                  name: http
+    - host: www.bloodhounds.homes
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: bloodhounds-web
+                port:
+                  name: http

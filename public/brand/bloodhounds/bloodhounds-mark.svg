@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08090d" />
+      <stop offset="100%" stop-color="#10141c" />
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9fe870" />
+      <stop offset="100%" stop-color="#8a2435" />
+    </linearGradient>
+  </defs>
+  
+    <rect width="512" height="512" fill="url(#bg)" />
+    <rect x="56" y="56" width="400" height="400" rx="28" fill="#0d1016" stroke="rgba(255,255,255,0.12)" />
+    <path d="M132 376 L132 144 L216 144 C280 144 318 176 318 226 C318 264 298 292 264 304 L330 376 L260 376 L204 314 L192 314 L192 376 Z" fill="#f3f4ee" />
+    <path d="M356 132 L388 164 L388 260 C388 314 342 360 286 360 L254 360 L254 304 L286 304 C311 304 328 286 328 260 L328 188 L296 156 Z" fill="#9fe870" />
+    <rect x="124" y="398" width="264" height="8" fill="url(#line)" />
+    <text x="256" y="104" fill="#dbe0d7" font-size="28" letter-spacing="10" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">BH</text>
+  
+</svg>

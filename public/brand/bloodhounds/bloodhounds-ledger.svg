@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08090d" />
+      <stop offset="100%" stop-color="#10141c" />
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9fe870" />
+      <stop offset="100%" stop-color="#8a2435" />
+    </linearGradient>
+  </defs>
+  
+    <rect width="1200" height="1500" fill="#08090d" />
+    <rect x="88" y="88" width="1024" height="1324" fill="#0f141c" stroke="rgba(255,255,255,0.08)" />
+    <rect x="88" y="88" width="1024" height="184" fill="#131a23" />
+    <text x="132" y="188" fill="#f3f4ee" font-size="98" font-family="Arial Black, Arial, Helvetica, sans-serif" letter-spacing="6">LEDGER</text>
+    <text x="136" y="244" fill="#dbe0d7" font-size="26" font-family="Arial, Helvetica, sans-serif" letter-spacing="8">SEOUL / NIGHT / ACCOUNTS RECEIVABLE</text>
+    <rect x="132" y="284" width="934" height="8" fill="#9fe870" />
+    
+          <rect x="132" y="404" width="936" height="72" fill="rgba(255,255,255,0.03)" />
+          <rect x="156" y="426" width="178" height="10" fill="rgba(255,255,255,0.18)" />
+          <rect x="370" y="426" width="264" height="10" fill="rgba(255,255,255,0.12)" />
+          <rect x="770" y="426" width="120" height="10" fill="#8a2435" />
+          <rect x="924" y="426" width="118" height="10" fill="rgba(255,255,255,0.16)" />
+        
+          <rect x="132" y="508" width="936" height="72" fill="rgba(255,255,255,0.06)" />
+          <rect x="156" y="530" width="178" height="10" fill="rgba(255,255,255,0.18)" />
+          <rect x="370" y="530" width="264" height="10" fill="rgba(255,255,255,0.12)" />
+          <rect x="770" y="530" width="120" height="10" fill="#9fe870" />
+          <rect x="924" y="530" width="118" height="10" fill="rgba(255,255,255,0.16)" />
+        
+          <rect x="132" y="612" width="936" height="72" fill="rgba(255,255,255,0.03)" />
+          <rect x="156" y="634" width="178" height="10" fill="rgba(255,255,255,0.18)" />
+          <rect x="370" y="634" width="264" height="10" fill="rgba(255,255,255,0.12)" />
+          <rect x="770" y="634" width="120" height="10" fill="#9fe870" />
+          <rect x="924" y="634" width="118" height="10" fill="rgba(255,255,255,0.16)" />
+        
+          <rect x="132" y="716" width="936" height="72" fill="rgba(255,255,255,0.06)" />
+          <rect x="156" y="738" width="178" height="10" fill="rgba(255,255,255,0.18)" />
+          <rect x="370" y="738" width="264" height="10" fill="rgba(255,255,255,0.12)" />
+          <rect x="770" y="738" width="120" height="10" fill="#8a2435" />
+          <rect x="924" y="738" width="118" height="10" fill="rgba(255,255,255,0.16)" />
+        
+          <rect x="132" y="820" width="936" height="72" fill="rgba(255,255,255,0.03)" />
+          <rect x="156" y="842" width="178" height="10" fill="rgba(255,255,255,0.18)" />
+          <rect x="370" y="842" width="264" height="10" fill="rgba(255,255,255,0.12)" />
+          <rect x="770" y="842" width="120" height="10" fill="#9fe870" />
+          <rect x="924" y="842" width="118" height="10" fill="rgba(255,255,255,0.16)" />
+        
+          <rect x="132" y="924" width="936" height="72" fill="rgba(255,255,255,0.06)" />
+          <rect x="156" y="946" width="178" height="10" fill="rgba(255,255,255,0.18)" />
+          <rect x="370" y="946" width="264" height="10" fill="rgba(255,255,255,0.12)" />
+          <rect x="770" y="946" width="120" height="10" fill="#9fe870" />
+          <rect x="924" y="946" width="118" height="10" fill="rgba(255,255,255,0.16)" />
+        
+          <rect x="132" y="1028" width="936" height="72" fill="rgba(255,255,255,0.03)" />
+          <rect x="156" y="1050" width="178" height="10" fill="rgba(255,255,255,0.18)" />
+          <rect x="370" y="1050" width="264" height="10" fill="rgba(255,255,255,0.12)" />
+          <rect x="770" y="1050" width="120" height="10" fill="#8a2435" />
+          <rect x="924" y="1050" width="118" height="10" fill="rgba(255,255,255,0.16)" />
+        
+          <rect x="132" y="1132" width="936" height="72" fill="rgba(255,255,255,0.06)" />
+          <rect x="156" y="1154" width="178" height="10" fill="rgba(255,255,255,0.18)" />
+          <rect x="370" y="1154" width="264" height="10" fill="rgba(255,255,255,0.12)" />
+          <rect x="770" y="1154" width="120" height="10" fill="#9fe870" />
+          <rect x="924" y="1154" width="118" height="10" fill="rgba(255,255,255,0.16)" />
+        
+          <rect x="132" y="1236" width="936" height="72" fill="rgba(255,255,255,0.03)" />
+          <rect x="156" y="1258" width="178" height="10" fill="rgba(255,255,255,0.18)" />
+          <rect x="370" y="1258" width="264" height="10" fill="rgba(255,255,255,0.12)" />
+          <rect x="770" y="1258" width="120" height="10" fill="#9fe870" />
+          <rect x="924" y="1258" width="118" height="10" fill="rgba(255,255,255,0.16)" />
+        
+    <path d="M876 1024 C918 826 984 684 1068 580 C1096 548 1122 528 1140 526 L1140 1208 L824 1208 C828 1144 844 1084 876 1024 Z" fill="rgba(138,36,53,0.45)" />
+    <text x="132" y="1360" fill="#f3f4ee" font-size="104" font-family="Arial Black, Arial, Helvetica, sans-serif" letter-spacing="6">DEBT</text>
+    <text x="486" y="1360" fill="#9fe870" font-size="104" font-family="Arial Black, Arial, Helvetica, sans-serif" letter-spacing="6">MAP</text>
+  
+</svg>

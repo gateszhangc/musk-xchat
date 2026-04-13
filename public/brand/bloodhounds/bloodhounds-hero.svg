@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08090d" />
+      <stop offset="100%" stop-color="#10141c" />
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9fe870" />
+      <stop offset="100%" stop-color="#8a2435" />
+    </linearGradient>
+  </defs>
+  
+    <rect width="1600" height="2000" fill="url(#bg)" />
+    <rect x="0" y="1260" width="1600" height="740" fill="#07080b" />
+    <rect x="100" y="150" width="1400" height="1700" fill="none" stroke="rgba(255,255,255,0.08)" />
+    <rect x="1060" y="0" width="140" height="2000" fill="rgba(159,232,112,0.06)" />
+    <rect x="1140" y="0" width="12" height="2000" fill="#9fe870" opacity="0.6" />
+    <rect x="210" y="260" width="12" height="1420" fill="#8a2435" opacity="0.85" />
+    <path d="M330 1500 C420 1190 560 930 724 760 C810 676 892 640 954 640 C1088 640 1150 806 1150 964 C1150 1188 1018 1390 834 1500 Z" fill="#121821" />
+    <path d="M760 640 C844 640 906 572 906 486 C906 404 842 338 760 338 C680 338 614 404 614 486 C614 572 676 640 760 640 Z" fill="#171d28" />
+    <path d="M882 1522 C980 1238 1114 1012 1248 904 C1312 852 1384 832 1450 842 L1450 1522 Z" fill="#121821" />
+    <path d="M1208 880 C1280 880 1340 822 1340 750 C1340 676 1280 616 1208 616 C1134 616 1076 676 1076 750 C1076 822 1134 880 1208 880 Z" fill="#171d28" />
+    <path d="M0 1496 L1600 1112 L1600 1194 L0 1580 Z" fill="rgba(138,36,53,0.45)" />
+    <path d="M0 1586 L1600 1202 L1600 1260 L0 1640 Z" fill="rgba(255,255,255,0.06)" />
+    <rect x="132" y="140" width="284" height="40" fill="#9fe870" />
+    <text x="140" y="1090" fill="#f3f4ee" font-size="260" font-family="Arial Black, Arial, Helvetica, sans-serif" letter-spacing="8">BLOOD</text>
+    <text x="140" y="1336" fill="#f3f4ee" font-size="260" font-family="Arial Black, Arial, Helvetica, sans-serif" letter-spacing="8">HOUNDS</text>
+    <text x="144" y="1418" fill="#dbe0d7" font-size="44" font-family="Arial, Helvetica, sans-serif" letter-spacing="12">DEBT. DISCIPLINE. BROTHERHOOD.</text>
+    <rect x="144" y="1454" width="640" height="10" fill="#8a2435" />
+    <rect x="804" y="1454" width="180" height="10" fill="#9fe870" />
+    <g fill="rgba(255,255,255,0.12)">
+      <rect x="160" y="1700" width="130" height="180" />
+      <rect x="320" y="1640" width="88" height="240" />
+      <rect x="430" y="1720" width="120" height="160" />
+      <rect x="580" y="1580" width="144" height="300" />
+      <rect x="760" y="1660" width="110" height="220" />
+      <rect x="900" y="1540" width="166" height="340" />
+      <rect x="1100" y="1620" width="120" height="260" />
+      <rect x="1250" y="1680" width="170" height="200" />
+    </g>
+  
+</svg>
