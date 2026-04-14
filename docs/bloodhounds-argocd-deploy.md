@@ -34,25 +34,29 @@ Current route:
 - Preview hostname: `bloodhounds.144.91.77.245.sslip.io`
 - TLS issuer annotation: `letsencrypt-prod`
 - Ingress class: `nginx`
+- Live DNS target A records:
+  - `144.91.73.228`
+  - `144.91.77.245`
+  - `144.91.78.201`
 - Public env:
   - `NEXT_PUBLIC_WEB_URL=https://bloodhounds.homes`
   - `NEXT_PUBLIC_PROJECT_NAME=bloodhounds`
   - `NEXT_PUBLIC_CLARITY_PROJECT_ID=wb4ttwal07`
   - `NEXT_PUBLIC_AUTH_DISABLED=true`
+- Live verification status:
+  - `https://bloodhounds.homes/en` returns `200`
+  - `https://bloodhounds.homes/brand/bloodhounds/bloodhounds-hero.svg` returns `200`
+  - `https://www.bloodhounds.homes/en` returns `200`
 
 ## What still needs confirmation
 
-1. DNS cutover from Porkbun parked page to the cluster ingress
-2. Whether auth should stay disabled in production
-3. GA4 / GSC credentials for full launch-analytics completion
+1. Whether auth should stay disabled in production
+2. GA4 / GSC credentials for full launch-analytics completion
+3. Whether `www.bloodhounds.homes` should remain a full alias or be forced to apex after launch
 
 ## Recommended next step
 
-1. Push the repo to GitHub
-2. Push image `registry.144.91.77.245.sslip.io/bloodhounds:20260414065832`
-3. Apply Argo CD application
-4. Verify:
-   - `/robots.txt`
-   - `/sitemap.xml`
-   - homepage HTML
-   - `/brand/bloodhounds/bloodhounds-hero.svg`
+1. Keep Argo synced to `main`
+2. Add GA4 and GSC when credentials are ready
+3. Decide whether `www` should redirect to apex permanently
+4. Re-run PageSpeed on the live domain once Google quota or UI access is available
