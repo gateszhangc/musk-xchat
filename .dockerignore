@@ -12,3 +12,8 @@ test-results
 .tmp
 vercel.json
 wrangler.toml
+deploy
+docs
+e2e
+graphify
+tasks

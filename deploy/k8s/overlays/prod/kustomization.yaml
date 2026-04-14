@@ -6,4 +6,4 @@ resources:
 images:
   - name: ghcr.io/example/musk-xchat
     newName: registry.144.91.77.245.sslip.io/musk-xchat
-    newTag: "20260414084809"
+    newTag: "20260414171852"
