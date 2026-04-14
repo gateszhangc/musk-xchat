@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: bloodhounds-web
+  name: musk-xchat-web
 spec:
   selector:
-    app: bloodhounds-web
+    app: musk-xchat-web
   ports:
     - name: http
       port: 80

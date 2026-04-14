@@ -1,27 +1,27 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: bloodhounds-web
+  name: musk-xchat-web
 spec:
   replicas: 2
   revisionHistoryLimit: 5
   selector:
     matchLabels:
-      app: bloodhounds-web
+      app: musk-xchat-web
   template:
     metadata:
       labels:
-        app: bloodhounds-web
+        app: musk-xchat-web
     spec:
       imagePullSecrets:
         - name: dokploy-fleet-ghcr
       containers:
         - name: web
-          image: ghcr.io/example/bloodhounds:latest
+          image: ghcr.io/example/musk-xchat:latest
           imagePullPolicy: IfNotPresent
           envFrom:
             - configMapRef:
-                name: bloodhounds-web
+                name: musk-xchat-web
           ports:
             - containerPort: 3000
               name: http

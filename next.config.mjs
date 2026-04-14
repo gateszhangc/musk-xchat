@@ -131,6 +131,17 @@ const nextConfig = {
         has: [
           {
             type: "host",
+            value: "www.musk-xchat.lol",
+          },
+        ],
+        destination: "https://musk-xchat.lol/:path*",
+        permanent: true,
+      },
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
             value: "easyclaw.pro",
           },
         ],

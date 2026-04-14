@@ -1,12 +1,12 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: bloodhounds-homes-tls
+  name: musk-xchat-lol-tls
 spec:
-  secretName: bloodhounds-homes-tls
+  secretName: musk-xchat-lol-tls
   issuerRef:
     kind: ClusterIssuer
     name: letsencrypt-prod
   dnsNames:
-    - bloodhounds.homes
-    - www.bloodhounds.homes
+    - musk-xchat.lol
+    - www.musk-xchat.lol

@@ -1,9 +1,9 @@
 {
-  "name": "ai-outfit-generator",
+  "name": "musk-xchat",
   "version": "2.6.0",
   "private": true,
   "author": "idoubi",
-  "homepage": "https://bloodhounds.homes",
+  "homepage": "https://musk-xchat.lol",
   "engines": {
     "node": ">=18.17.0"
   },
@@ -14,7 +14,7 @@
     "dev:playwright": "cross-env NODE_NO_WARNINGS=1 NEXT_PUBLIC_AUTH_DISABLED=true node scripts/dev/next-runtime.mjs dev playwright",
     "dev:turbo": "cross-env NODE_NO_WARNINGS=1 node scripts/dev/next-runtime.mjs dev web --turbopack",
     "dev:reset": "node scripts/dev/reset.mjs",
-    "build": "fumadocs-mdx && cross-env NODE_NO_WARNINGS=1 node scripts/dev/next-runtime.mjs build build",
+    "build": "node node_modules/fumadocs-mdx/dist/bin.js && NODE_NO_WARNINGS=1 node scripts/dev/next-runtime.mjs build build",
     "start": "cross-env NODE_NO_WARNINGS=1 node scripts/start-standalone.mjs",
     "lint": "next lint",
     "analyze": "cross-env ANALYZE=true npm run build",
@@ -23,7 +23,7 @@
     "db:migrate": "npx drizzle-kit migrate --config=src/db/config.ts",
     "db:studio": "npx drizzle-kit studio --config=src/db/config.ts",
     "db:push": "npx drizzle-kit push --config=src/db/config.ts",
-    "postinstall": "fumadocs-mdx",
+    "postinstall": "node node_modules/fumadocs-mdx/dist/bin.js",
     "test": "npm run test:runtime && npm run test:backend && vitest run && playwright test",
     "test:backend": "node --import tsx --test backend/src/routes/*.test.ts backend/src/services/*.test.ts",
     "test:runtime": "node --import tsx --test scripts/dev/*.node-test.mjs",

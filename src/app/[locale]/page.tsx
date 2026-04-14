@@ -1,11 +1,11 @@
-import BloodhoundsLanding from "@/components/landing/bloodhounds-landing";
+import MuskXChatLanding from "@/components/landing/musk-xchat-landing";
 import { getSiteUrl } from "@/lib/site-url";
 import {
-  BLOODHOUNDS_METADATA,
-  BLOODHOUNDS_OG_IMAGE,
-  BLOODHOUNDS_SITE_NAME,
-  buildBloodhoundsStructuredData,
-} from "@/lib/bloodhounds-site";
+  MUSK_XCHAT_METADATA,
+  MUSK_XCHAT_OG_IMAGE,
+  MUSK_XCHAT_SITE_NAME,
+  buildMuskXChatStructuredData,
+} from "@/lib/musk-xchat-site";
 import {
   buildAlternateLanguageUrls,
   getAbsoluteLocalizedUrl,
@@ -22,9 +22,9 @@ export async function generateMetadata({
   const languages = buildAlternateLanguageUrls(siteUrl, "/");
 
   return {
-    title: BLOODHOUNDS_METADATA.title,
-    description: BLOODHOUNDS_METADATA.description,
-    keywords: BLOODHOUNDS_METADATA.keywords.join(", "),
+    title: MUSK_XCHAT_METADATA.title,
+    description: MUSK_XCHAT_METADATA.description,
+    keywords: MUSK_XCHAT_METADATA.keywords.join(", "),
     alternates: {
       canonical: canonicalUrl,
       languages,
@@ -32,23 +32,23 @@ export async function generateMetadata({
     openGraph: {
       type: "website",
       url: canonicalUrl,
-      title: BLOODHOUNDS_METADATA.title,
-      description: BLOODHOUNDS_METADATA.description,
-      siteName: BLOODHOUNDS_SITE_NAME,
+      title: MUSK_XCHAT_METADATA.title,
+      description: MUSK_XCHAT_METADATA.description,
+      siteName: MUSK_XCHAT_SITE_NAME,
       images: [
         {
-          url: `${siteUrl}${BLOODHOUNDS_OG_IMAGE}`,
+          url: `${siteUrl}${MUSK_XCHAT_OG_IMAGE}`,
           width: 1200,
           height: 630,
-          alt: "Bloodhounds Homes editorial poster",
+          alt: "Musk XChat editorial poster",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: BLOODHOUNDS_METADATA.title,
-      description: BLOODHOUNDS_METADATA.description,
-      images: [`${siteUrl}${BLOODHOUNDS_OG_IMAGE}`],
+      title: MUSK_XCHAT_METADATA.title,
+      description: MUSK_XCHAT_METADATA.description,
+      images: [`${siteUrl}${MUSK_XCHAT_OG_IMAGE}`],
     },
   };
 }
@@ -60,7 +60,7 @@ export default async function LandingPage({
 }) {
   const { locale } = await params;
   const siteUrl = getSiteUrl();
-  const structuredData = buildBloodhoundsStructuredData(
+  const structuredData = buildMuskXChatStructuredData(
     getAbsoluteLocalizedUrl(siteUrl, locale, "/")
   );
 
@@ -70,7 +70,7 @@ export default async function LandingPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <BloodhoundsLanding />
+      <MuskXChatLanding />
     </>
   );
 }

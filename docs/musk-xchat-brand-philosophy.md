@@ -1,0 +1,11 @@
+# Signal Lattice
+
+Signal Lattice treats communication as engineered tension rather than friendly softness. Space is carved with relay diagonals, pressure lines, and clipped terminals so every composition feels like a transmission path being actively negotiated. The work should read as meticulously crafted, with each interval, offset, and crossing aligned through painstaking attention rather than casual tech decoration. Nothing floats. Everything locks into place with the authority of master-level execution.
+
+Color behaves like state, not mood. Carbon black establishes the field, pearl white marks human legibility, mint acts as confirmation, and coral acts as friction or warning. The palette must feel tuned with deep expertise so the accents look earned and precise, never sprayed across the canvas. The finished object should carry the polish of something refined over countless iterations by someone at the absolute top of their field.
+
+Scale and rhythm come from asymmetry under control: oversized wordmarks, narrow mono labels, long horizontal traces, and disciplined interruptions that imply speed without blur. Repetition matters, but it must be repeated with patience and intent so the eye reads system before ornament. This is not casual futurism. It should look labor-intensive, exact, and unmistakably the product of painstaking craft.
+
+Composition should balance ambition and doubt. The forms need to suggest messaging, routing, and encrypted pathways, while also preserving a visible tension between claimed certainty and unresolved trust. Large quiet zones give the geometry room to breathe, and text appears only as a structural accent. Every caption, coordinate, and dividing rule must feel deliberately placed, showing the mark of meticulous hands and mature editorial judgment.
+
+The final expression should resemble an artifact from a near-future communications lab: pristine, severe, and quietly magnetic. It must look as if countless hours were invested in proportion, spacing, and contrast until the work could communicate velocity, skepticism, and product ambition in one frame. The result should feel museum-clean, technically assured, and impossible to dismiss as generic startup graphics.

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1800" viewBox="0 0 1600 1800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060606" />
+      <stop offset="55%" stop-color="#111111" />
+      <stop offset="100%" stop-color="#0c1410" />
+    </linearGradient>
+    <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#82ffb6" />
+      <stop offset="100%" stop-color="#ff5853" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  
+    <rect width="1600" height="1800" fill="url(#bg)" />
+    <rect x="0" y="0" width="1600" height="1800" fill="url(#bg)" />
+    <rect x="90" y="90" width="1420" height="1620" fill="none" stroke="rgba(255,255,255,0.08)" />
+    <rect x="118" y="118" width="144" height="12" fill="#82ffb6" />
+    <rect x="1340" y="1670" width="144" height="12" fill="#ff5853" />
+    
+  <g opacity="1">
+    <path d="M 150 294 L 720.4 294 L 1390 727.1999999999999" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2" />
+    <path d="M 323.6 940 L 819.6 544.8 L 1390 544.8" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2" />
+    <circle cx="720.4" cy="294" r="8" fill="#82ffb6" />
+    <circle cx="819.6" cy="544.8" r="8" fill="#ff5853" />
+    <circle cx="1390" cy="727.1999999999999" r="8" fill="#f6f4ee" />
+  </g>
+    
+  <g opacity="0.8">
+    <path d="M 220 904 L 698.4000000000001 904 L 1260 1223.2" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="2" />
+    <path d="M 365.6 1380 L 781.6 1088.8 L 1260 1088.8" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2" />
+    <circle cx="698.4000000000001" cy="904" r="8" fill="#82ffb6" />
+    <circle cx="781.6" cy="1088.8" r="8" fill="#ff5853" />
+    <circle cx="1260" cy="1223.2" r="8" fill="#f6f4ee" />
+  </g>
+    <path d="M180 1260 L620 1260 L862 840 L1114 1260 L1420 1260" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="6" />
+    <path d="M240 1328 L544 1328 L862 932 L1184 1328 L1360 1328" fill="none" stroke="url(#pulse)" stroke-width="8" filter="url(#glow)" />
+    <circle cx="862" cy="932" r="24" fill="#f6f4ee" />
+    <circle cx="544" cy="1328" r="18" fill="#82ffb6" />
+    <circle cx="1184" cy="1328" r="18" fill="#ff5853" />
+    <text x="148" y="1486" fill="#f6f4ee" font-size="214" font-family="Arial Black, Arial, Helvetica, sans-serif" letter-spacing="8">MUSK</text>
+    <text x="148" y="1698" fill="#f6f4ee" font-size="214" font-family="Arial Black, Arial, Helvetica, sans-serif" letter-spacing="8">XCHAT</text>
+    <text x="156" y="1760" fill="#bfc5c0" font-size="34" font-family="Arial, Helvetica, sans-serif" letter-spacing="10">ROLL OUT, TRUST GAP, MESSAGING AMBITION</text>
+  
+</svg>

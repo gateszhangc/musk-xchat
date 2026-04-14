@@ -6,7 +6,7 @@ test("root path resolves to the localized homepage", async ({ page }) => {
   expect(response?.ok()).toBeTruthy();
   await expect(page).toHaveURL(/\/en$/);
   await expect(
-    page.getByRole("heading", { name: /Bloodhounds/i, level: 1 })
+    page.getByRole("heading", { name: /Musk XChat/i, level: 1 })
   ).toBeVisible();
-  await expect(page).toHaveTitle(/Bloodhounds Netflix Guide/i);
+  await expect(page).toHaveTitle(/Musk XChat/i);
 });

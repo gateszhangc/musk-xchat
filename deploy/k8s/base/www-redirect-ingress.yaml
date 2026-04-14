@@ -1,17 +1,19 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: musk-xchat-preview
+  name: musk-xchat-live-www-redirect
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/permanent-redirect: https://musk-xchat.lol$request_uri
 spec:
   ingressClassName: nginx
   tls:
     - hosts:
-        - musk-xchat.144.91.77.245.sslip.io
-      secretName: musk-xchat-preview-tls
+        - www.musk-xchat.lol
+      secretName: musk-xchat-lol-tls
   rules:
-    - host: musk-xchat.144.91.77.245.sslip.io
+    - host: www.musk-xchat.lol
       http:
         paths:
           - path: /
