@@ -8,5 +8,4 @@ resources:
   - service.yaml
   - live-certificate.yaml
   - ingress.yaml
-  - www-redirect-ingress.yaml
   - preview-ingress.yaml

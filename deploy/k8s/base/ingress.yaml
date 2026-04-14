@@ -23,3 +23,13 @@ spec:
                 name: musk-xchat-web
                 port:
                   name: http
+    - host: www.musk-xchat.lol
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: musk-xchat-web
+                port:
+                  name: http
