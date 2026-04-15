@@ -1,8 +1,16 @@
 import SignForm from "@/components/sign/form";
 import { auth } from "@/auth";
+import { Metadata } from "next";
 import { redirect } from "next/navigation";
 import { isAuthEnabled } from "@/lib/auth";
 import NextImage from "next/image";
+
+export const metadata: Metadata = {
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
 
 export default async function SignInPage({
   searchParams,

@@ -1,9 +1,17 @@
+import { Metadata } from "next";
 import { ReactNode } from "react";
 import LandingTheme from "@/components/theme/landing-theme";
 import BlogPrefetch from "@/components/prefetch/blog-prefetch";
 import Header from "@/components/blocks/header";
 import Footer from "@/components/blocks/footer";
 import { getLandingPage } from "@/services/page";
+
+export const metadata: Metadata = {
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
 
 export default async function DefaultLayout({
   children,

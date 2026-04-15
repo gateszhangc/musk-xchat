@@ -40,7 +40,7 @@ Route summary:
   - `NEXT_PUBLIC_WEB_URL=https://musk-xchat.lol`
   - `NEXT_PUBLIC_PROJECT_NAME=musk-xchat`
   - `NEXT_PUBLIC_CLARITY_PROJECT_ID=wbfrqsuxcb`
-  - `NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=` (empty until GA4 is provisioned)
+  - `NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=G-KYC07NR878`
   - `NEXT_PUBLIC_AUTH_DISABLED=true`
 
 ## Verification targets
@@ -56,4 +56,4 @@ Route summary:
 1. Create or confirm the GitHub repository `gateszhangc/musk-xchat`
 2. Push a production image to `registry.144.91.77.245.sslip.io/musk-xchat`
 3. Sync the Argo CD application `musk-xchat`
-4. Add GA4 and GSC credentials when available
+4. Keep GA4 `G-KYC07NR878`, GSC domain property, and Clarity `wbfrqsuxcb` aligned with production

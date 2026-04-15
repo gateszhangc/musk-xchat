@@ -1,11 +1,19 @@
 import DashboardLayout from "@/components/dashboard/layout";
 import Empty from "@/components/blocks/empty";
+import { Metadata } from "next";
 import { ReactNode } from "react";
 import { Sidebar } from "@/types/blocks/sidebar";
 import { getUserInfo } from "@/services/auth_user";
 import { redirect } from "next/navigation";
 import LandingTheme from "@/components/theme/landing-theme";
 import { isAuthEnabled } from "@/lib/auth";
+
+export const metadata: Metadata = {
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
 
 // Admin pages depend on request-scoped auth/session state and must not be
 // prerendered during production builds.
